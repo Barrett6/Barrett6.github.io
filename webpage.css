@@ -1,0 +1,36 @@
+body {
+ background-color: brown;
+}
+h1{
+color: black; text-align:center; font-family: fantasy;
+}
+h2{
+color: black; text-align:center; font-family: fantasy;
+}
+h3{
+color: black; text-align:center; font-family: serif;
+}
+p{
+color: black; text-align:center; font-family:serif;
+}
+.accordion{
+  background-color: black;
+  color: red;
+  cursor: pointer;
+  padding: 18px;
+  width:100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition:0.4s;
+}
+.active .accordion:hover {
+  background-color: green;
+}
+.panel {
+  padding: 0 18px;
+  background-color: red;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height;
+}
